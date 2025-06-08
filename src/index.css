@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  padding-top: 20px;
+}
+.container h1 {
+  font-size: 10em;
+}
+
+.container button {
+  padding: 10px;
+  font-size: 2em;
+  background: rgb(103, 103, 212);
+  cursor: pointer;
+  border: none;
+  outline: invert;
+  color: white;
+  margin: 10px;
+  font-weight: 800;
+}
+
+.container button:hover {
+  background: rgb(66, 66, 184);
+}
